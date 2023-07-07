@@ -12,7 +12,7 @@ const CardProducto = ({producto}) => {
                     <Card.Text>
                     $ {producto.precio}
                     </Card.Text>
-                    <NavLink end to={`/detalleProducto/${producto.id}`} className={"btn btn-primary"} >Ver detalle</NavLink>
+                    <NavLink end to={`/detalleProducto/${producto._id}`} className={"btn btn-primary"} >Ver detalle</NavLink>
                 </Card.Body>
             </Card>
         </Col>

@@ -33,7 +33,7 @@ const Inicio = () => {
                 <Row className="alineacionProductos">
                    {
                     productos.map((producto) => {
-                            return <CardProducto producto={producto} key={producto.id}></CardProducto>
+                            return <CardProducto producto={producto} key={producto._id}></CardProducto>
                     })
                 }
                 </Row>

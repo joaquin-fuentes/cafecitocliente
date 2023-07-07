@@ -43,7 +43,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
                         <NavLink end to={"/"} className={"nav-item nav-link"} >Inicio</NavLink>
                         <NavLink end to={"/registro"} className={"nav-item nav-link"}>Registro</NavLink>
                         {
-                            usuarioLogueado.email ?
+                            usuarioLogueado.usuario ?
                                 <>
                                     <NavLink end to={"/administrador"} className={"nav-item nav-link"}>Administrador</NavLink>
                                     <Button variant="dark" onClick={logout}>Logout</Button>
