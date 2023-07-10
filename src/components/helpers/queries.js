@@ -24,7 +24,7 @@ export const login = async (usuario) =>{
     
     } catch (error) {
       console.log("errores en el login");
-      return;
+      return null;
     }
   }
 
